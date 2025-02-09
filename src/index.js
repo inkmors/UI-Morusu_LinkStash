@@ -7,11 +7,14 @@ import './index.css';
 import Posts from './Components/Main/Posts';
 import Header from './Components/Main/Header';
 import Footer from './Components/Main/Footer';
+// import App from './Components/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header userName="Vinicius" role="Admin" />
+
+    {/* <App /> */}
 
     {/* <Login Spanerror="Email ou senha incorretos" /> */}
     <div className='divPosts'>
