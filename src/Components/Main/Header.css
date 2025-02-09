@@ -1,0 +1,9 @@
+
+
+.divUserPhoto{
+    width: 3rem;
+    height: 3rem;
+    background-color: bisque;
+    background-size: cover;
+    border-radius: 100%;
+}

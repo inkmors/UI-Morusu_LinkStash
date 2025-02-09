@@ -1,0 +1,133 @@
+.login{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-family: 'Mulish';
+  gap: 4rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 25rem;
+  width: 100%;
+  padding: 2em;
+  gap: 1.3rem;
+  border-radius: 10px;
+  border: 1px solid rgb(41, 175, 1);
+}
+
+.divAlignInputs{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.divPhoto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 2.5rem;
+  background-color: rgb(41, 175, 1);
+  box-shadow: rgb(41, 175, 1) 0px 0px 15px;
+
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+img{
+  width: 1.5rem
+}
+
+input{
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  height: 2.5rem;
+  border: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding-left: 0.4rem;
+  color: rgb(41, 175, 1);
+}
+
+input::placeholder {
+  color: rgb(41, 175, 1);
+}
+
+.alignCheckbox{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 1.3rem;
+  margin-top: 1rem;
+}
+
+.alignCheckbox a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding-right: 0.5rem;
+  font-size: 13px;
+  font-weight: 600;
+  color: rgb(53, 228, 0);
+  text-shadow: rgb(60, 255, 0) 0px 0px 15px;
+}
+
+.alignCheckbox a:hover{
+  text-decoration: underline;
+}
+
+.alignSpansError{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.spanError{
+  display: block;
+  color: rgb(255, 9, 9);
+}
+
+
+#btnIdEnter{
+  border: none;
+  border-radius: 5px;
+  height: 2.3rem;
+  
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 0px 15px;
+  width: 100%;
+
+  font-size: 16px;
+  color: rgb(41, 175, 1);
+  cursor: pointer;
+
+  font-family: 'Mulish';
+  font-weight: 700;
+}
+
+#btnIdEnter:hover{
+  background-color: rgb(202, 202, 202);
+}
+
+/* para o modo escuro */
+/* #btnIdEnter{
+  border: none;
+  border-radius: 5px;
+  height: 2.3rem;
+  
+  background-color: rgb(41, 175, 1);
+  width: 100%;
+
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+} */

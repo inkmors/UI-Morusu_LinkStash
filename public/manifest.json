@@ -1,0 +1,30 @@
+{
+  "short_name": "MoManagement",
+  "name": "Morusu Management",
+  "icons": [
+    {
+      "src": "./assets/icons8-cadeado-52.png",
+      "sizes": "52x52",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "./assets/icons8-gerenciamento-de-projetos-96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "./assets/icons8-gestão-de-desenvolvimento-comercial-100.png",
+      "type": "image/png",
+      "sizes": "100x100"
+    },
+    {
+      "src": "./assets/icons8-usuário-de-gênero-neutro-52.png",
+      "type": "image/png",
+      "sizes": "52x52"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

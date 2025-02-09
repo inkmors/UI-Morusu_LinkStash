@@ -1,0 +1,159 @@
+.divPostsAll {
+    color: #0FB91B;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    width: 19rem;
+    padding: 1rem 1.2rem;
+    border-radius: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-family: "Mulish";
+    margin: 2rem;
+}
+
+.divIcon{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.shortDiv{
+    display: flex; /* Ativa o Flexbox */
+    justify-content: space-between; /* Espaço máximo entre os elementos */
+    align-items: center; /* Alinha verticalmente ao centro */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.h1Titie {
+    font-size: 20px; /* Ajuste conforme necessário */
+    margin: 0; /* Remove margens padrão */
+    font-family: "Mulish";
+    font-weight: 800;
+  }
+
+.paragraphPlus {
+    font-size: 40px; /* Maior destaque para o "+" ou "-" */
+    font-weight: bold;
+    cursor: pointer; /* Indica que é clicável */
+    margin: 0; /* Remove margens padrão */
+    font-family: "Hubballi-Regular";
+  }
+
+.h1Plus:hover{
+    cursor: pointer;
+}
+
+.expandedContent{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+.expandedContent hr{
+    width: 100%;
+    background-color: #0FB91B;
+    border: none;
+    height: 2px;
+}
+
+.expandedContent a{
+    color: rgb(41, 175, 1);
+}
+
+.expandedContent textarea{
+    resize: none;
+    background-color: rgba(240, 248, 255, 0);
+    outline-color: #b6b6b6;
+    color: #7e7d7d;
+    border: 2px solid #d6d6d6;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0.5em;
+}
+
+.expandedContent textarea::placeholder{
+    color: #aaaaaa;
+}
+
+.divAlignContainner{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.containerLinkSaved{
+    background-color: #d6d6d6;
+    width: 5rem;
+    padding: 0.1rem;
+    border-radius: 20px;
+}
+
+.containerLinkSaved h6{
+    color: #7e7d7d;
+}
+
+.containerLink{
+    width: 100%;
+    border: 2px solid #d6d6d6;
+    border-radius: 5px;
+    padding: 0.2rem 0.5rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: start;
+    
+}
+
+.containerLink a{
+    color: #7e7d7d;
+    text-decoration: none;
+}
+.divAlignButtons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.divAlignButtons button{
+    color: white;
+    width: 5.5rem;
+    height: 1.8rem;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-family: "Mulish";
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.divAlignButtons button:nth-of-type(1){
+    background-color: #F2A232;
+    box-shadow: 0 0 10px #EDB970;
+}
+
+.divAlignButtons button:nth-of-type(2){
+    background-color: #FF5151;
+    box-shadow: 0 0 10px #FB7474;
+}
+
+.divAlignButtons button:nth-of-type(1):hover{
+    background-color: #cc8a2e;
+}
+
+.divAlignButtons button:nth-of-type(2):hover{
+    background-color: #bb4040;
+}
+
+.divAlignButtons button:hover{
+    transform: scale(1.03);
+    transition: transform 0.3s ease-in-out;
+}

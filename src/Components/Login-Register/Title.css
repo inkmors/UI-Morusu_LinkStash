@@ -1,0 +1,31 @@
+.title{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.alignH1{
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+.title img{
+    width: 80px;
+}
+
+.title .alignH1 h1:nth-child(1){
+    font-family: "Mulish";
+    font-weight: 1000;
+    font-size: 70px;
+    color: rgb(53, 228, 0);
+    text-shadow: rgba(60, 255, 0, 0.363) 0px 0px 15px;
+}
+
+.alignH1 h1:nth-child(2){
+    font-family: "Josefinsans";
+    font-weight: 300;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(255, 255, 255, 0.363) 0px 0px 15px;
+}
