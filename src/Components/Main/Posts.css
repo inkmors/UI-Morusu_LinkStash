@@ -1,9 +1,9 @@
 .divPostsAll {
     color: #0FB91B;
-    background-color: white;
+    background-color: rgb(238, 237, 237);
     box-shadow: 0 0 10px rgb(255, 255, 255);
     width: 19rem;
-    padding: 1rem 1.2rem;
+    padding: 0rem 1.2rem;
     border-radius: 14px;
     text-align: center;
     box-sizing: border-box;
@@ -12,7 +12,7 @@
     align-items: center;
     gap: 1rem;
     font-family: "Mulish";
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .divIcon{
@@ -22,25 +22,26 @@
 }
 
 .shortDiv{
-    display: flex; /* Ativa o Flexbox */
-    justify-content: space-between; /* Espaço máximo entre os elementos */
-    align-items: center; /* Alinha verticalmente ao centro */
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
     width: 100%;
     box-sizing: border-box;
 }
 
 .h1Titie {
-    font-size: 20px; /* Ajuste conforme necessário */
-    margin: 0; /* Remove margens padrão */
+    margin-top: 2rem;
+    font-size: 20px; 
+    margin: 0; 
     font-family: "Mulish";
     font-weight: 800;
   }
 
 .paragraphPlus {
-    font-size: 40px; /* Maior destaque para o "+" ou "-" */
+    font-size: 40px; 
     font-weight: bold;
-    cursor: pointer; /* Indica que é clicável */
-    margin: 0; /* Remove margens padrão */
+    cursor: pointer; 
+    margin: 0; 
     font-family: "Hubballi-Regular";
   }
 
@@ -120,6 +121,7 @@
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
+    margin: 1.5rem 0;
 }
 
 .divAlignButtons button{

@@ -1,9 +1,183 @@
+.divHeader{
+    width: 100%;
+    display: flex;
+    padding: 2rem 12rem;
+    box-sizing: border-box;
+    margin-bottom: 5rem;
+}
 
+.divHeader header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.divLogotype{
+    display: flex;
+    align-items: start;
+    gap: 0.5rem;
+}
+
+.divLogotype img{
+    width: 35px;
+}
+
+.alignTitleLogotype{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+header h1{
+    font-family: "Josefin Sans";
+    font-size: 30px;
+    color: #0EE81D;
+}
+
+header p{
+    font-family: "Mulish";
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.divSearch{
+    display: flex;
+    align-items: center;
+}
+
+.divSearch input{
+    width: 17rem;
+    height: 2rem;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #e7e7e7;
+    color: #7e7d7d; 
+    font-family: "Mulish";
+    font-size: 15px;
+    padding-left: 0.8rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 6px rgb(255, 255, 255);
+    outline: none;
+}
+
+.divSearch input::placeholder{
+    color: #aaaaaa;
+}
+
+.divSearch button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 2rem;
+    background-color: #0fd31c;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 0 6px #0EE81D;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.divSearch button:hover{
+    background-color: #0fb41a;
+    transform: scale(1.03);
+    transition: 0.4s ease-in-out;
+}
+
+.divSearch button img{
+    width: 26px;
+}
+
+.containnerBtnProfile{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.divAddBtn{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.divAddBtn button{
+    font-family: "Hubballi-Regular";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 6px #ffffff;
+    color: #0FB91B;
+    border-radius: 12px;
+    width: 2.5rem;
+    height: 2rem;
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: 1000;
+    transition: 0.4s ease-in-out;
+}
+
+.divAddBtn button:hover{
+    transform: scale(1.06);
+    transition: 0.4s ease-in-out;
+}
+
+.divProfile{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
 
 .divUserPhoto{
-    width: 3rem;
-    height: 3rem;
-    background-color: bisque;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(214, 214, 214);
     background-size: cover;
     border-radius: 100%;
+
+    overflow: hidden;
+    cursor: pointer;
 }
+
+.divNameUser{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.divNameUser h2{
+    font-family: "Mulish";
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+
+.divNameUser p{
+    font-family: "Mulish";
+    font-size: 10px;
+    color: #0EE81D;
+}
+
+@media screen and (max-width: 1250px) {
+    .divSearch{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .divHeader{
+      padding: 0 3rem;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .divHeader{
+      padding: 2rem 1rem;
+    }
+  }
